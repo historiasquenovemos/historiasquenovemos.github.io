@@ -1,0 +1,171 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+<section>
+    <div class="container wow fadeIn">
+        <div id="oleezLandingCarousel" class="oleez-landing-carousel carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="assets/images/cover_historias.jpg" alt="First slide" class="w-100">
+                    <div class="carousel-caption">
+                        <h2 data-animation="animated fadeInRight"><span>Normalizando</span></h2>
+                        <h2 data-animation="animated fadeInRight"><span>emociones</span></h2>
+                        <a href="/historias.html" class="carousel-item-link" data-animation="animated fadeInRight">LEER
+                            MAS</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/cover_recursos.jpg" alt="Second slide" class="w-100">
+                    <div class="carousel-caption">
+                        <h2 data-animation="animated fadeInRight"><span>Recursos</span></h2>
+                        <h2 data-animation="animated fadeInRight"><span>en Espanol</span></h2>
+                        <a href="/recursos.html" class="carousel-item-link" data-animation="animated fadeInRight">LEER
+                            MAS</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/cover_nosotros.jpg" alt="Third slide" class="w-100">
+                    <div class="carousel-caption">
+                        <h2 data-animation="animated fadeInRight"><span>Nuestro</span></h2>
+                        <h2 data-animation="animated fadeInRight"><span>Objetivo</span></h2>
+                        <a href="/nosotros.html" class="carousel-item-link" data-animation="animated fadeInRight">LEER
+                            MAS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="oleez-landing-section oleez-landing-section-about">
+    <div class="container">
+        <div class="oleez-landing-section-content">
+            <div class="oleez-landing-section-verticals wow fadeIn">
+                <span class="number">01</span> <img src="assets/images/Logo_2.svg" alt="ollez" height="12px">
+            </div>
+            <h2 class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Sobre nosotros
+            </h2>
+            <p></p>
+            <div class="row mb-5">
+                <div class="col-12">
+                    <p>
+                        #historiasquenovemos es una iniciativa boliviana que busca la normalización de la expresión
+                        emocional y sentimental además del reconocimiento de la importancia de la salud mental de
+                        hombres en las sociedades latinoamericanas.
+                    </p>
+                    <p>Buscamos romper los estereotipos de género que evitan que más hombres puedan buscar ayuda
+                        psicológica y puedan mostrarse vulnerables ante la sociedad sin ser juzgados.
+                    </p>
+                    <p>
+                        Tomando consciencia de la responsabilidad masculina de sanar heridas. Somos una extension del
+                        movimiento feminista latinoamericano actual.
+                    </p>
+                </div>
+            </div>
+            <a href="/nosotros.html" class="post-permalink">MAS SOBRE NOSOTROS</a>
+        </div>
+    </div>
+</section>
+<section class="oleez-landing-section oleez-landing-section-team portfolio-grid-page">
+    <div class="container">
+        <div class="oleez-landing-section-content">
+            <div class="oleez-landing-section-verticals wow fadeIn">
+                <span class="number">02</span> <img src="assets/images/Logo_2.svg" alt="ollez" height="12px">
+            </div>
+            <h2 class="section-title mb-1 wow fadeInUp">Historias que no vemos</h2>
+            <p class="client-section-subtitle">Lee las historias de hombres que compartieron sus experiencias con el
+                mundo. Apoyando a nuestra
+                busqueda de la normalización de la expresion emocional masculina.</p>
+            <div class="row mb-5">
+                {% for historia in site.historias %}
+                <a href="{{ historia.url }}" class="text-decoration-none text-reset col-md-4 mb-5 mb-md-0">
+                    <div class="portfolio-card wow fadeInUp">
+                        <div class="project-thumbnail-wrapper">
+                            <img src="/assets/images/historias/{{ historia.thumbnail }}" alt="portffolio"
+                                class="project-thumbnail">
+                        </div>
+                        <h5 class="project-name">{{ historia.title }}</h5>
+                        <p class="project-category">{{ historia.description }}</p>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+            <a href="/historias.html" class="post-permalink">TODAS LAS HISTORIAS</a>
+        </div>
+    </div>
+</section>
+
+<section class="oleez-landing-section oleez-landing-section-news">
+    <div class="container">
+        <div class="oleez-landing-section-content">
+            <div class="oleez-landing-section-verticals wow fadeIn">
+                <span class="number">03</span> <img src="assets/images/Logo_2.svg" alt="ollez" height="12px">
+            </div>
+            <h2 class="section-title mb-1 wow fadeInUp">Nuestros recursos</h2>
+            <p class="client-section-subtitle">Todos nuestros recursos sobre salud mental en espanol.</p>
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <a href="/recursos/libros.html" class="text-decoration-none text-reset">
+                        <div class="news-card news-card-1 wow fadeInUp">
+                            <div class="card-body">
+                                <div class="post-meta">
+                                    <span class="post-category">Recursos</span>
+                                </div>
+                                <h5 class="post-title">Libros recomendados</h5>
+                                <div href="#!" class="post-permalink">Leer mas </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <a href="/recursos/podcasts.html" class="text-decoration-none text-reset">
+                        <div class="news-card news-card-2 wow fadeInUp">
+                            <div class="card-body">
+                                <div class="post-meta">
+                                    <span class="post-category">Recursos</span>
+                                </div>
+                                <h5 class="post-title">Podcasts recomendados</h5>
+                                <div href="#!" class="post-permalink">Leer mas </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <a href="/recursos/ayuda.html" class="text-decoration-none text-reset">
+                        <div class="news-card news-card-3 wow fadeInUp">
+                            <div class="card-body">
+                                <div class="post-meta">
+                                    <span class="post-category">Recursos</span>
+                                </div>
+                                <h5 class="post-title">Lineas de ayuda</h5>
+                                <div href="#!" class="post-permalink">Leer mas </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="oleez-landing-section oleez-landing-section-client">
+    <div class="container">
+        <div class="oleez-landing-section-content">
+            <div class="oleez-landing-section-verticals wow fadeIn">
+                <span class="number">04</span> <img src="assets/images/Logo_2.svg" alt="ollez" height="12px">
+            </div>
+            <h2 class="section-title mb-1 wow fadeInUp">Organizaciones amigas</h2>
+            <p class="client-section-subtitle">Conoce las organizaciones que comparten nuestra vision de crear una
+                sociedad mas justa y menos machista.</p>
+            <div class="row">
+                <div class="col-md-4 client-logo-wrapper wow">
+                    <div class="client-logo">
+                        <img src="assets/images/org_empojuve_lapaz.png" alt="client" height="50px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

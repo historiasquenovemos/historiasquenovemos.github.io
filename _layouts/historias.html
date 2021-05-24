@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div class="blog-post-single">
+    <div class="container">
+        <h1 class="post-title wow fadeInUp">{{ page.title }}</h1>
+        <div class="row justify-content-center mb-4">
+            <div class="col-12 col-lg-10 col-xl-8 blog-post-wrapper">
+                <div class="post-header wow fadeInUp">
+                    <img src="/assets/images/historias/{{ page.thumbnail }}" alt="blog post"
+                        class="post-featured-image">
+                    <p class="post-date">January 29, 2020</p>
+                </div>
+                <div class="post-content wow fadeInUp">
+                    {{ content }}
+                </div>
+                <h3>Bio</h3>
+                <div class="post-content wow fadeInUp mb-3">
+                    <p>
+                        {{ page.bio }}
+                    </p>
+                </div>
+                <div class="post-navigation wow fadeInUp">
+                    <button class="btn prev-post"> Prev Post</button>
+                    <button class="btn next-post"> Next Post</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
