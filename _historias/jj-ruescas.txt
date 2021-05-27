@@ -12,7 +12,7 @@ Sigue mi jornada en www.jjruesas.com"
 banner_image: episodes/202105_001_motivtation.jpg
 thumbnail: 02_jj_ruescas.jpg
 category: ""
-order: 1
+order: 2
 ---
 
 Friday’s Desperation - La Desesperación de los Viernes

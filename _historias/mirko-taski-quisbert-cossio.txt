@@ -1,12 +1,12 @@
 ---
 layout: historias
 title: "Mirko Quisbert Cossio"
-description: "Activista medioambiental"
+description: "Estudiante de psicología e ilustrador aficionado"
 bio: "Soy parte del Panel de jóvenes en el programa de televisión Comunidad Sexual, Activista medioambiental en Iniciativa La Paz Biodiversa, Estudio Psicología, Teatro y soy un Ilustrador apasionado."
 banner_image: episodes/202105_001_motivtation.jpg
 thumbnail: 03_mirko_quisbert.jpg
 category: ""
-order: 1
+order: 3
 ---
 
 No se muy bien por donde empezar, yo soy Mirko Quisbert Cossio y sufrí un par de ataques de pánico el 2018, para quien no lo conoce los ataques de pánico se caracterizan por una sensación de hiperventilación y mucho miedo, literalmente cuando me paso sentía que me iba a morir en ese momento, después de eso desarrolle ansiedad a que me vuelva a ocurrir, en el peor de los momentos llegue a tener dolores de mandíbula por presionar mucho los dientes y miedo súbito al despertar en la noche.

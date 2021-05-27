@@ -2,4 +2,20 @@
 layout: default
 ---
 
-{{ content }}
+<div class="blog-post-single">
+    <div class="container">
+        <h1 class="post-title wow fadeInUp">{{ page.title }}</h1>
+        <div class="row justify-content-center mb-4">
+            <div class="col-12 col-lg-10 col-xl-8 blog-post-wrapper">
+                <div class="post-content wow fadeInUp">
+                    {{ content }}
+                </div>
+                <div class="post-navigation wow fadeInUp">
+                    <button class="btn prev-post"> Prev Post</button>
+                    <button class="btn next-post"> Next Post</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
