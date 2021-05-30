@@ -2,13 +2,8 @@
 layout: historias
 title: "Jhimy Michel"
 description: "Estudiante de Maestria en ZHAW - Suiza"
-bio: "Humano Motivado por la Curiosidad. Un aprendiz de por vida. Promotor de Kaizen.
-Tecnofilósofo que combina su pasión por la tecnologías y el desarrollo personal.
-DevOps Evangelist
-Co-founder de ubX Academy
-Científico y rata de laboratorio, ambos al mismo tiempo.
-
-Sigue mi jornada en www.jjruesas.com"
+bio: "Software Engineer. 
+Master Student at ZHAW - Switzerland"
 banner_image: episodes/202105_001_motivtation.jpg
 thumbnail: 01_jhimy_michel.jpg
 category: ""
