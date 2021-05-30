@@ -4,7 +4,7 @@ title: "Jhimy Michel"
 description: "Estudiante de Maestria en ZHAW - Suiza"
 bio: "Software Engineer. 
 Master Student at ZHAW - Switzerland"
-banner_image: episodes/202105_001_motivtation.jpg
+banner_image: historias/01_jhimy_michel.jpg
 thumbnail: 01_jhimy_michel.jpg
 category: ""
 order: 1
