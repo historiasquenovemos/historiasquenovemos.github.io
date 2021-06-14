@@ -8,7 +8,7 @@ DevOps Evangelist
 Co-founder de ubX Academy
 Científico y rata de laboratorio, ambos al mismo tiempo.
 
-Sigue mi jornada en www.jjruesas.com"
+Sigue mi jornada en www.jjruescas.com"
 banner_image: episodes/202105_001_motivtation.jpg
 thumbnail: 02_jj_ruescas.jpg
 category: ""
