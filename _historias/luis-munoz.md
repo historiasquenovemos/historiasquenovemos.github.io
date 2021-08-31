@@ -9,7 +9,7 @@ category: ""
 order: 12
 ---
 
-En el diario vivir, la palabra trauma es utilizada en broma y con ligereza. Es una manera fácil de reinos de nosotros mismos, libera y suelta tensión. 
+En el diario vivir, la palabra trauma es utilizada en broma y con ligereza. Es una manera fácil de reírnos de nosotros mismos, libera y suelta tensión. 
  
 Pero si profundizamos su verdadero significado podría llevarnos a un camino de reinvención.
  
